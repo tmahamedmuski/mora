@@ -22,6 +22,7 @@ const Signup = () => {
           <label>Email:</label>
           <input
             type="email"
+            placeholder='Enter the Email'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -31,10 +32,23 @@ const Signup = () => {
           <label>Password:</label>
           <input
             type="password"
+            placeholder='Enter the Password'
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
           />
+          
+        </div>
+        <div>
+          <label>confirm Password:</label>
+          <input
+            type="password"
+            placeholder='Confirm Enter the Password'
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+          
         </div>
         <button type="submit">Sign Up</button>
       </form>
