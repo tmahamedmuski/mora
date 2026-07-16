@@ -18,8 +18,3 @@ Thumbs.db
 # IDE config
 .idea/
 .vscode/
-
-# Package lock files
-package-lock.json
-yarn.lock
-package.json
